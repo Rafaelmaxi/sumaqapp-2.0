@@ -6,7 +6,7 @@
   <nav class="desktop-menu">
     <a href="/sumaqvida_app/index.php#sobre">Nosotros</a>
     <div class="dropdown">
-      <a href="#">Funciones</a>
+      <a href="/sumaqvida_app/index.php#funcionalidades">Funciones</a>
       <div class="dropdown-content">
         <a href="/sumaqvida_app/views/pages/registro-diario.php">Registro diario</a>
         <a href="/sumaqvida_app/views/pages/evaluacion.php">Evaluación antes de comer</a>

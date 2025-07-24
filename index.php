@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/app.js"></script>  
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
@@ -33,6 +33,8 @@
       <li>✔ Alertas automáticas sobre riesgos de hipoglucemia o hiperglucemia.</li>
       <li>✔ Sugerencias personalizadas de acciones y alimentación.</li>
       <li>✔ Historial y evolución de tu tratamiento.</li>
+      <li>✔ Sugerencias personalizadas basadas en IA para tomar decisiones más seguras.</li>
+      <li>✔ Generación de recetas saludables recomendadas según tus niveles actuales.</li>
     </ul>
   </section>
 
@@ -57,18 +59,16 @@
     <p>© 2025 SumaqVida - Todos los derechos reservados</p>
   </footer>
 
-  <div id="chatToggle">💬</div>
+  <div id="chatToggle"><i class="bi bi-chat-dots"></i></div>
 
   <div id="chatWidget" style="display: none;">
-    <div id="chatHeader">Asistente de Salud 🤖</div>
+    <div id="chatHeader">Asistente de Salud </div>
     <div id="chatLog"></div>
     <div id="chatInputArea">
       <input id="chatInput" type="text" placeholder="Escribe tu mensaje..." />
-      <button id="sendMessageBtn">➤</button>
+      <button id="sendMessageBtn"><i class="bi bi-send"></i></button>
     </div>
   </div>
-
 <script src="js/chatbot.js"></script>
-
 </body>
 </html>
