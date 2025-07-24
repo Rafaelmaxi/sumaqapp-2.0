@@ -1,0 +1,60 @@
+.section-title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--color-principal);
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      font-weight: 500;
+      color: var(--color-oscuro);
+    }
+
+    select.form-select {
+      border-radius: 10px;
+      padding: 12px;
+      border: 1px solid #ccc;
+    }
+
+    .btn-success {
+      background-color: var(--color-principal);
+      border-color: var(--color-principal);
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .btn-success:hover {
+      background-color: #e0356d;
+      border-color: #e0356d;
+    }
+
+    .card {
+      border-radius: 12px;
+      border: none;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    .table {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .table thead {
+      background-color: #f8f9fa;
+    }
+
+    .btn-outline-primary {
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    .card h4, .card h5 {
+      margin: 0;
+    }
+    .card {
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+    }
+

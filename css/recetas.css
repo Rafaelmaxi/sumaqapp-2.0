@@ -1,0 +1,50 @@
+.color-rosa{
+      color: #e0356d;
+    }
+    .filter-btn {
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 0.875rem;
+    }
+
+    .card-title {
+      min-height: 48px;
+    }
+
+    .card-img-top {
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .filter-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 2rem;
+    }
+    /* Botones primarios personalizados */
+    .btn-custom {
+    background-color: #e0356d;
+    color: white;
+    border: none;
+    }
+
+    .btn-custom:hover,
+    .btn-custom:focus {
+    background-color: #c72f61; /* tono más oscuro al pasar el mouse */
+    color: white;
+    }
+
+    /* Opcional: para aplicar también al outline si estás usando .btn-outline-primary */
+    .btn-outline-custom {
+    border-color: #e0356d;
+    color: #e0356d;
+    }
+
+    .btn-outline-custom:hover,
+    .btn-outline-custom:focus {
+    background-color: #e0356d;
+    color: white;
+    border-color: #e0356d;
+    }
